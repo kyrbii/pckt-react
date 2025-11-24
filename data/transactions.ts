@@ -1,0 +1,68 @@
+import { Transaction } from '../types/finance';
+
+export const mockTransactions: Transaction[] = [
+  {
+    id: '1',
+    title: 'Monthly Salary',
+    amount: 5000,
+    type: 'income',
+    category: 'salary',
+    date: new Date('2025-11-01'),
+  },
+  {
+    id: '2',
+    title: 'Grocery Shopping',
+    amount: 125.50,
+    type: 'expense',
+    category: 'food',
+    date: new Date('2025-11-15'),
+  },
+  {
+    id: '3',
+    title: 'Uber Ride',
+    amount: 18.75,
+    type: 'expense',
+    category: 'transport',
+    date: new Date('2025-11-18'),
+  },
+  {
+    id: '4',
+    title: 'Netflix Subscription',
+    amount: 15.99,
+    type: 'expense',
+    category: 'entertainment',
+    date: new Date('2025-11-20'),
+  },
+  {
+    id: '5',
+    title: 'Electricity Bill',
+    amount: 89.00,
+    type: 'expense',
+    category: 'bills',
+    date: new Date('2025-11-21'),
+  },
+  {
+    id: '6',
+    title: 'Online Shopping',
+    amount: 245.00,
+    type: 'expense',
+    category: 'shopping',
+    date: new Date('2025-11-22'),
+  },
+  {
+    id: '7',
+    title: 'Restaurant Dinner',
+    amount: 67.30,
+    type: 'expense',
+    category: 'food',
+    date: new Date('2025-11-23'),
+  },
+  {
+    id: '8',
+    title: 'Freelance Project',
+    amount: 800,
+    type: 'income',
+    category: 'other',
+    date: new Date('2025-11-24'),
+  },
+];
